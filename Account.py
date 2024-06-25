@@ -15,3 +15,15 @@ class Account:
     def set_interest(self, interest):
         """Sets the interest gained for the the account"""
         self.interest = interest
+
+    def get_balance(self):
+        """Gets the balance for the for the account"""
+        return self.balance
+    
+    def get_interest(self):
+        """Gets the interest gained for the the account"""
+        return self.interest
+
+    def calculate_interest(balance, interest_rate, months):
+        """Returns the """
+        return balance * (interest_rate / 100 * months / 12)
