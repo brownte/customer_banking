@@ -24,6 +24,6 @@ class Account:
         """Gets the interest gained for the the account"""
         return self.interest
 
-    def calculate_interest(balance, interest_rate, months):
-        """Returns the """
-        return balance * (interest_rate / 100 * months / 12)
+    def calculate_interest(self, months):
+        """Calculate the interest earned over a given number of months."""
+        return self.balance * (self.interest / 100 * months / 12)
